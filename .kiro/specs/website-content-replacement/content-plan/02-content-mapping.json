@@ -1,0 +1,820 @@
+{
+  "metadata": {
+    "projectName": "Website Content Replacement",
+    "oldCompany": "Ramos",
+    "newCompany": "[TO BE FILLED]",
+    "dateCreated": "2025-11-15",
+    "version": "1.0",
+    "lastUpdated": "2025-11-15"
+  },
+  "textContent": {
+    "preloader": {
+      "companyName": {
+        "selector": ".preloader-mark",
+        "old": "Ramos®",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 7
+      },
+      "statusText": {
+        "selector": ".preloader-text",
+        "old": "Data Processing",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 15
+      }
+    },
+    "navigation": {
+      "item1": {
+        "selector": "a[data-navlink='1']",
+        "old": "Key Features",
+        "new": "",
+        "linkTarget": "#key-features",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 12
+      },
+      "item2": {
+        "selector": "a[data-navlink='2']",
+        "old": "Explore",
+        "new": "",
+        "linkTarget": "#explore",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 7
+      },
+      "item3": {
+        "selector": "a[data-navlink='3']",
+        "old": "Solutions",
+        "new": "",
+        "linkTarget": "#solutions",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 9
+      },
+      "item4": {
+        "selector": "a[data-navlink='4']",
+        "old": "Tools",
+        "new": "",
+        "linkTarget": "#tools",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 5
+      },
+      "item5": {
+        "selector": "a[data-navlink='5']",
+        "old": "Contact",
+        "new": "",
+        "linkTarget": "#contact",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 7
+      },
+      "signUpButton": {
+        "selector": ".main-button.menu .button-text",
+        "old": "Sign Up",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 7
+      }
+    },
+    "hero": {
+      "mainHeadline": {
+        "selector": ".headline-h1.hero-hide",
+        "old": "Analytics that helps you shape the future",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 42,
+        "notes": "Hidden for SEO, also split across multiple animated elements"
+      },
+      "headlinePart1": {
+        "selector": ".hero-text-line-n1 p.headline-h1",
+        "old": "Analytics",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 9
+      }
+    },
+    "keyFeatures": {
+      "sectionHeader": {
+        "selector": ".widgets-sc .header-block .headline-h2",
+        "old": "Your key to strategic success through analytics",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 51
+      },
+      "sectionDescription": {
+        "selector": ".widgets-sc .text-wrapper.widgets-s p.body-b2",
+        "old": "Ready for exciting, instantaneous, all-accessible insights in real time?",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 73
+      },
+      "leftWidgetTag": {
+        "selector": ".widget-tag",
+        "old": "Setting up reports",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 18
+      },
+      "leftWidgetSubheader": {
+        "selector": ".left-widget-text-content .subheader",
+        "old": "Fast and easy access to analytics",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 33
+      },
+      "leftWidgetDescription": {
+        "selector": ".left-widget-text-content .body-b1.middle-grey",
+        "old": "One platform is a comprehensive system of solutions that will be the first step towards digitalization of your business!",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 121
+      },
+      "salesStatistic": {
+        "selector": ".sales-text",
+        "old": "Sales statistic",
+        "new": "",
+        "status": "pending",
+        "priority": "low",
+        "charCount": 15
+      },
+      "profitLabel": {
+        "selector": ".profit-text",
+        "old": "Profit",
+        "new": "",
+        "status": "pending",
+        "priority": "low",
+        "charCount": 6
+      },
+      "profitValue": {
+        "selector": ".profit-value",
+        "old": "$742k",
+        "new": "",
+        "status": "pending",
+        "priority": "low",
+        "charCount": 5
+      }
+    },
+    "explore": {
+      "widgetTag": {
+        "selector": ".widget-right .widget-tag",
+        "old": "Monitoring",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 10
+      },
+      "subheader": {
+        "selector": ".widget-right .subheader",
+        "old": "Monitoring 24 hours a day",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 25
+      },
+      "description": {
+        "selector": ".widget-right .body-b1.middle-grey",
+        "old": "Collect data in real time from multiple channels and start generating reports right away.",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 89
+      }
+    },
+    "solutions": {
+      "sectionHeader": {
+        "selector": ".control-sc .headline-h2",
+        "old": "Gain control over your data",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 27
+      },
+      "sectionDescription": {
+        "selector": ".control-sc .body-b2",
+        "old": "Bring together all your data in one place and get a clear picture of your business.",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 84
+      },
+      "card1Tag": {
+        "selector": ".control-card:nth-child(1) .widget-tag",
+        "old": "Dashboards",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 10
+      },
+      "card1Title": {
+        "selector": ".control-card:nth-child(1) .subheader",
+        "old": "Customizable dashboards",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 23
+      },
+      "card1Description": {
+        "selector": ".control-card:nth-child(1) .body-b1",
+        "old": "Tailor your dashboard to display the metrics that matter most to your business.",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 80
+      },
+      "card2Tag": {
+        "selector": ".control-card:nth-child(2) .widget-tag",
+        "old": "Integrations",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 12
+      },
+      "card2Title": {
+        "selector": ".control-card:nth-child(2) .subheader",
+        "old": "Seamless integrations",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 21
+      },
+      "card2Description": {
+        "selector": ".control-card:nth-child(2) .body-b1",
+        "old": "Connect with your favorite tools and platforms for a unified data experience.",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 78
+      },
+      "card3Tag": {
+        "selector": ".control-card:nth-child(3) .widget-tag",
+        "old": "Security",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 8
+      },
+      "card3Title": {
+        "selector": ".control-card:nth-child(3) .subheader",
+        "old": "Advanced security",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 17
+      },
+      "card3Description": {
+        "selector": ".control-card:nth-child(3) .body-b1",
+        "old": "Rest easy knowing your data is protected with top-tier security measures.",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 74
+      }
+    },
+    "tools": {
+      "sectionHeader": {
+        "selector": ".tools-sc .headline-h2",
+        "old": "Powerful tools for data-driven decisions",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 40
+      },
+      "sectionDescription": {
+        "selector": ".tools-sc .body-b2",
+        "old": "Leverage advanced analytics tools to transform raw data into actionable insights.",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 80
+      }
+    },
+    "cta": {
+      "header": {
+        "selector": ".cta-sc .headline-h1",
+        "old": "Get Started",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 11,
+        "notes": "Each letter wrapped in animated spans"
+      },
+      "description": {
+        "selector": ".cta-sc .body-b1",
+        "old": "Turn information into advantage! Start using Ramos today. Sign up for a free trial.",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 83,
+        "notes": "Contains brand name 'Ramos'"
+      },
+      "button1": {
+        "selector": ".main-button.first-view .button-text",
+        "old": "Request a demo",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 14
+      },
+      "button2": {
+        "selector": ".main-button.second-view .button-text",
+        "old": "Start for free",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 14
+      }
+    },
+    "footer": {
+      "navLink1": {
+        "selector": ".footer-nav a:nth-child(1)",
+        "old": "Key Features",
+        "new": "",
+        "linkTarget": "#key-features",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 12
+      },
+      "navLink2": {
+        "selector": ".footer-nav a:nth-child(2)",
+        "old": "Explore",
+        "new": "",
+        "linkTarget": "#explore",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 7
+      },
+      "navLink3": {
+        "selector": ".footer-nav a:nth-child(3)",
+        "old": "Solutions",
+        "new": "",
+        "linkTarget": "#solutions",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 9
+      },
+      "navLink4": {
+        "selector": ".footer-nav a:nth-child(4)",
+        "old": "Tools",
+        "new": "",
+        "linkTarget": "#tools",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 5
+      },
+      "brandMark": {
+        "selector": ".footer-ramos-mark",
+        "old": "Ramos®",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 7
+      },
+      "creditLine": {
+        "selector": ".adress-span.made-by",
+        "old": "Made by Outcrowd",
+        "new": "",
+        "status": "pending",
+        "priority": "low",
+        "charCount": 16,
+        "linkTarget": "https://www.outcrowd.io/"
+      }
+    },
+    "form": {
+      "header": {
+        "selector": ".form-block .form-headline",
+        "old": "Get Access",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 10
+      },
+      "description": {
+        "selector": ".form-block .body-b2",
+        "old": "Create your account and dive into data-driven insights.",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 55
+      },
+      "nameLabel": {
+        "selector": ".input-lable:nth-child(1)",
+        "old": "Hello, My name is",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 17,
+        "placeholder": "John"
+      },
+      "emailLabel": {
+        "selector": ".input-lable:nth-child(2)",
+        "old": "My contact Email",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 16,
+        "placeholder": "John@example.com"
+      },
+      "submitButton": {
+        "selector": ".main-button.form-s .button-text",
+        "old": "Sign Up",
+        "new": "",
+        "status": "pending",
+        "priority": "high",
+        "charCount": 7
+      },
+      "successHeader": {
+        "selector": ".success-message .form-headline",
+        "old": "Request submited",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 16,
+        "notes": "Original has typo: 'submited' should be 'submitted'"
+      },
+      "successDescription": {
+        "selector": ".success-message .body-b2",
+        "old": "Thank you for your interest in our product. Expect an email with early access details shortly.",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 94
+      },
+      "successButton": {
+        "selector": ".success-message .button-text",
+        "old": "Return to home",
+        "new": "",
+        "status": "pending",
+        "priority": "medium",
+        "charCount": 14
+      }
+    }
+  },
+  "mediaAssets": {
+    "logo": {
+      "favicon": {
+        "oldPath": "669a3911a488f72cbabca56d/669a3c1a57c3b0f5c2f3036b_faviocn.png",
+        "newPath": "",
+        "dimensions": "32x32",
+        "format": "png",
+        "status": "pending",
+        "priority": "high",
+        "notes": "Browser tab icon"
+      },
+      "webclip": {
+        "oldPath": "669a3911a488f72cbabca56d/669a3c1d835c44b0a97cee7a_webclip.png",
+        "newPath": "",
+        "dimensions": "180x180",
+        "format": "png",
+        "status": "pending",
+        "priority": "high",
+        "notes": "Apple touch icon"
+      },
+      "mainLogoSVG": {
+        "oldPath": "Inline SVG in header (.ramos-logo-second)",
+        "newPath": "",
+        "type": "svg",
+        "status": "pending",
+        "priority": "high",
+        "notes": "Replace inline SVG code in HTML"
+      },
+      "footerLogoSVG": {
+        "oldPath": "Inline SVG in footer",
+        "newPath": "",
+        "type": "svg",
+        "status": "pending",
+        "priority": "high",
+        "notes": "Replace inline SVG code in HTML"
+      }
+    },
+    "hero": {
+      "heroVideo": {
+        "oldPath": "s/87iozgh1s9pw46j3cn49i/ramos-promo-half.mp4",
+        "newPath": "",
+        "format": "mp4",
+        "status": "pending",
+        "priority": "high",
+        "notes": "Main promotional video"
+      },
+      "videoCover": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd6395918050ef_video-cover.jpg",
+        "newPath": "",
+        "format": "jpg",
+        "status": "pending",
+        "priority": "medium",
+        "notes": "Video poster/thumbnail"
+      }
+    },
+    "features": {
+      "ipadMockup": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd6395918050ff_ipad.svg",
+        "newPath": "",
+        "format": "svg",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "ipadElementsTop": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd639591805113_ipad-elements-top.png",
+        "newPath": "",
+        "format": "png",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "ipadElementsDown": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd639591805169_ipad-down-elements-2.svg",
+        "newPath": "",
+        "format": "svg",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "phoneElementsTop": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd639591805136_phone-elements-top.png",
+        "newPath": "",
+        "format": "png",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "phoneElementsDown": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd639591805166_phone-elements-down.png",
+        "newPath": "",
+        "format": "png",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "cardGrid": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd63959180511a_card-grid.png",
+        "newPath": "",
+        "format": "png",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "mobileGrid": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd63959180513b_mobile-grid-p.png",
+        "newPath": "",
+        "format": "png",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "widgetStatistic": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd63959180515b_widget-statistic.svg",
+        "newPath": "",
+        "format": "svg",
+        "status": "pending",
+        "priority": "low"
+      },
+      "formBanner": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd63959180516c_form-banner.png",
+        "newPath": "",
+        "format": "png",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "formIpad": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd639591805165_fomr-ipad.png",
+        "newPath": "",
+        "format": "png",
+        "status": "pending",
+        "priority": "medium"
+      }
+    },
+    "backgrounds": {
+      "ramosBg": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd63959180511e_ramos-bg.jpg",
+        "newPath": "",
+        "format": "jpg",
+        "status": "pending",
+        "priority": "medium",
+        "notes": "Background image"
+      },
+      "ctaIconBg": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd63959180515c_cta-icon-bg.png",
+        "newPath": "",
+        "format": "png",
+        "status": "pending",
+        "priority": "low"
+      }
+    },
+    "icons": {
+      "ramosIcon": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd639591805117_ramos.svg",
+        "newPath": "",
+        "format": "svg",
+        "status": "pending",
+        "priority": "high",
+        "notes": "Company icon/logo"
+      }
+    },
+    "avatars": {
+      "avatar1": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd6395918050ee_avatar-2435.jpg",
+        "newPath": "",
+        "format": "jpg",
+        "status": "pending",
+        "priority": "low"
+      },
+      "avatar2": {
+        "oldPath": "66e58efe40dd6395918050ce/66e58efe40dd639591805103_avatar-2436.jpg",
+        "newPath": "",
+        "format": "jpg",
+        "status": "pending",
+        "priority": "low"
+      }
+    }
+  },
+  "brandIdentity": {
+    "companyName": {
+      "old": "Ramos",
+      "new": "",
+      "occurrences": [
+        ".preloader-mark",
+        ".ramos-logo-second svg",
+        ".cta-sc .body-b1",
+        ".footer-ramos-mark",
+        "Multiple locations in HTML"
+      ],
+      "status": "pending",
+      "priority": "high",
+      "notes": "Total 8+ occurrences including trademark symbol"
+    },
+    "colors": {
+      "primary": {
+        "old": "#FE4A23",
+        "new": "",
+        "usage": [
+          "Buttons",
+          "Accents",
+          "Links",
+          "Icons",
+          "SVG fills"
+        ],
+        "cssLocations": [
+          "Inline styles",
+          ".button-circle.orange",
+          "Various SVG elements"
+        ],
+        "status": "pending",
+        "priority": "high"
+      },
+      "white": {
+        "old": "#FFFFFF",
+        "new": "",
+        "usage": [
+          "Text on dark backgrounds",
+          "Button text"
+        ],
+        "status": "pending",
+        "priority": "medium"
+      },
+      "grey": {
+        "old": "Various shades",
+        "new": "",
+        "usage": [
+          "Secondary text",
+          "Backgrounds"
+        ],
+        "status": "pending",
+        "priority": "medium"
+      }
+    },
+    "typography": {
+      "primary": {
+        "old": "Urbanist",
+        "new": "",
+        "weights": [100, 200, 300, 400, 500, 600, 700, 800, 900],
+        "source": "Google Fonts",
+        "status": "pending",
+        "priority": "high",
+        "notes": "Loaded via WebFont.load()"
+      }
+    }
+  },
+  "seoMetadata": {
+    "title": {
+      "old": "Ramos",
+      "new": "",
+      "status": "pending",
+      "priority": "high",
+      "notes": "Page title in <title> tag"
+    },
+    "metaDescription": {
+      "old": "None (missing)",
+      "new": "",
+      "status": "pending",
+      "priority": "high",
+      "notes": "Should add meta description tag"
+    },
+    "ogTitle": {
+      "old": "Ramos",
+      "new": "",
+      "status": "pending",
+      "priority": "high",
+      "notes": "Open Graph title"
+    },
+    "ogImage": {
+      "old": "https://cdn.prod.website-files.com/669a3911a488f72cbabca56d/66e2a2f99cd9c144f25d469f_Opengraph.png",
+      "new": "",
+      "status": "pending",
+      "priority": "high",
+      "notes": "Recommended size: 1200x630px"
+    },
+    "ogDescription": {
+      "old": "None (missing)",
+      "new": "",
+      "status": "pending",
+      "priority": "high",
+      "notes": "Should add og:description"
+    },
+    "ogUrl": {
+      "old": "None (missing)",
+      "new": "",
+      "status": "pending",
+      "priority": "high",
+      "notes": "Should add og:url"
+    },
+    "ogType": {
+      "old": "None (missing)",
+      "new": "website",
+      "status": "pending",
+      "priority": "medium"
+    },
+    "twitterCard": {
+      "old": "None (missing)",
+      "new": "summary_large_image",
+      "status": "pending",
+      "priority": "medium"
+    },
+    "twitterTitle": {
+      "old": "Ramos",
+      "new": "",
+      "status": "pending",
+      "priority": "high"
+    },
+    "twitterImage": {
+      "old": "https://cdn.prod.website-files.com/669a3911a488f72cbabca56d/66e2a2f99cd9c144f25d469f_Opengraph.png",
+      "new": "",
+      "status": "pending",
+      "priority": "high",
+      "notes": "Recommended size: 1200x675px"
+    },
+    "twitterDescription": {
+      "old": "None (missing)",
+      "new": "",
+      "status": "pending",
+      "priority": "medium"
+    },
+    "robots": {
+      "old": "None (missing)",
+      "new": "index, follow",
+      "status": "pending",
+      "priority": "medium",
+      "notes": "Should add robots meta tag"
+    },
+    "canonical": {
+      "old": "None (missing)",
+      "new": "",
+      "status": "pending",
+      "priority": "medium",
+      "notes": "Should add canonical link"
+    }
+  },
+  "contactInfo": {
+    "email": {
+      "old": "hello@ramos.com",
+      "new": "",
+      "locations": [
+        ".menu-mail",
+        ".ramos-mail"
+      ],
+      "status": "pending",
+      "priority": "high",
+      "notes": "Used in header menu and footer"
+    },
+    "addresses": {
+      "address1": {
+        "old": "Raleigh\n125 N. Harrington Street\nRaleigh, NC 27603\n919.833.6413",
+        "new": "",
+        "selector": ".adress-text.set-1",
+        "status": "pending",
+        "priority": "medium"
+      },
+      "address2": {
+        "old": "Charlotte\n220 East Peterson Drive\nCharlotte, NC 28217\n704.333.7272",
+        "new": "",
+        "selector": ".adress-text.set-2",
+        "status": "pending",
+        "priority": "medium"
+      }
+    }
+  }
+}

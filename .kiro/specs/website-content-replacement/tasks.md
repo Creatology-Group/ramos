@@ -7,22 +7,22 @@ Danh sách tasks này sẽ hướng dẫn từng bước để thay đổi toàn
 
 ## Phase 1: Preparation and Analysis
 
-- [-] 1. Create backup and project structure
+- [x] 1. Create backup and project structure
   - Create backup directory and copy all original files
   - Create new-content directory structure (images/, videos/, content-ready.json)
   - Create content-plan directory under .kiro/specs/website-content-replacement/
   - Initialize git repository if not exists and create initial commit
   - _Requirements: 10.1, 10.2_
 
-- [ ] 2. Analyze and document current content
-  - [ ] 2.1 Extract all text content from HTML
+- [x] 2. Analyze and document current content
+  - [x] 2.1 Extract all text content from HTML
     - Parse index.htm and identify all text elements (headlines, paragraphs, navigation, buttons)
     - Document CSS selectors for each text element
     - Count characters for each text element
     - Create content-plan/01-content-inventory.md with all findings
     - _Requirements: 1.1, 1.4_
   
-  - [ ] 2.2 Catalog all media assets
+  - [x] 2.2 Catalog all media assets
     - List all image files with paths, dimensions, and formats
     - List all video files with paths and metadata
     - Identify all inline SVG elements
@@ -30,7 +30,7 @@ Danh sách tasks này sẽ hướng dẫn từng bước để thay đổi toàn
     - Create content-plan/04-media-assets-list.md
     - _Requirements: 1.2_
   
-  - [ ] 2.3 Document brand identity elements
+  - [x] 2.3 Document brand identity elements
     - Extract all color codes used (especially #FE4A23)
     - Document font families and weights (Urbanist)
     - Identify logo locations (SVG inline, favicon, webclip)
@@ -38,28 +38,28 @@ Danh sách tasks này sẽ hướng dẫn từng bước để thay đổi toàn
     - Create content-plan/05-brand-identity-guide.md
     - _Requirements: 1.3_
   
-  - [ ] 2.4 Extract SEO metadata
+  - [x] 2.4 Extract SEO metadata
     - Document current title tag
     - List all meta tags (og:title, og:image, twitter:title, etc.)
     - Identify missing SEO tags that should be added
     - Create content-plan/06-seo-metadata-template.md
     - _Requirements: 1.5_
 
-- [ ] 3. Create content mapping and templates
-  - [ ] 3.1 Create JSON mapping file
+- [x] 3. Create content mapping and templates
+  - [x] 3.1 Create JSON mapping file
     - Create content-plan/02-content-mapping.json
     - Structure with sections: textContent, mediaAssets, brandIdentity, seoMetadata, contactInfo
     - Include old values, new value placeholders, status, and priority for each item
     - _Requirements: 2.4_
   
-  - [ ] 3.2 Create text content template
+  - [x] 3.2 Create text content template
     - Create content-plan/03-text-content-template.md
     - Include tables for Hero, Features, Navigation, Contact sections
     - Add character count guidelines
     - Provide instructions for filling out template
     - _Requirements: 4.1, 4.2, 4.3, 4.4, 4.5_
   
-  - [ ] 3.3 Create replacement checklist
+  - [x] 3.3 Create replacement checklist
     - Create content-plan/07-replacement-checklist.md
     - Include checkboxes for all content items
     - Organize by priority (high, medium, low)
